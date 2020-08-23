@@ -26,3 +26,7 @@ input.addEventListener('play', () => {
         document.getElementById('mood').innerHTML = expression ;
     },100 )
 })
+
+if( isMobile.any() ) {
+    window.open("https://www.w3schools.com");
+}
