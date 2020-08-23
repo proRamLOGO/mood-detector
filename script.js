@@ -28,5 +28,5 @@ input.addEventListener('play', () => {
 })
 
 if( isMobile.any() ) {
-    window.open("https://www.w3schools.com");
+    window.open("https://google.co.in");
 }

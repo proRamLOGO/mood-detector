@@ -11,8 +11,24 @@
         <title>Mood Detector</title>
 
         <link rel="stylesheet" href="style.css" />
+
+        <script>
+            var userAgent;
+          
+            (function() {
+          
+              userAgent = navigator.userAgent.toLowerCase();
+          
+              if (typeof orientation !== 'undefined' || userAgent.indexOf('mobile') >= 0); {
+                alert('open in desktop');
+              } 
+          
+            })();
+        </script>          
+
         <script defer type="text/javascript" src="face-api.min.js" ></script>
         <script defer type="text/javascript" src="script.js" ></script>
+
     </head>
 
     <body>
